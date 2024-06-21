@@ -1,0 +1,187 @@
+body {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg.jpg') center/cover fixed no-repeat;
+   
+}
+
+header {
+    background-image: url('../img/bg_menu.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #d5952f;
+    padding: 20px 0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header h1 img {
+    margin-right: 10px;
+}
+
+
+
+.cart-icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.total-box {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+ 
+}
+.total-box h3 {
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.total-box span:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+    max-width: 80px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h3 {
+    margin: 0 0 10px 0;
+}
+
+.item-details .price {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.remove-item {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-item:hover {
+    background-color: #FF4500;
+}
+
+.cart-summary {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart-summary h3 {
+    margin: 20px 0;
+}
+
+.checkout-button, .continue-shopping-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.checkout-button:hover, .continue-shopping-button:hover {
+    background-color: #0056b3;
+}
+
+.continue-shopping-button, .checkout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.continue-shopping-button:hover, .checkout-button:hover {
+    background-color: #0056b3;
+}
+
+/* Стиль для бокса с итоговой суммой */
+.total-box {
+    background-color: rgb(46, 39, 26); /* Оранжевый фон */
+    color: white; /* Белый цвет текста */
+    padding: 10px 15px; /* Внутренние отступы */
+    border-radius: 8px; /* Скругленные углы */
+    display: inline-block; /* Отображение как инлайн-блок */
+    text-align: center; /* Центрирование текста */
+    font-weight: bold; /* Жирный шрифт */
+    margin-top: 20px; /* Отступ сверху */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.total-box span {
+    display: block; /* Каждое слово в отдельной строке */
+}
+
+.total-box #total-price {
+    font-size: 1.2em; /* Увеличенный размер текста для суммы */
+}
+
+.total-box span:first-child {
+    font-size: 1em; /* Размер текста для "Итого" */
+    margin-bottom: 5px; /* Отступ снизу */
+}

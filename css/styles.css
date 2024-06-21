@@ -1,0 +1,161 @@
+﻿body {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg.jpg') center/cover fixed no-repeat;
+}
+
+header {
+    background-image: url('../img/bg_menu.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #d5952f;
+    padding: 20px 0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cart-icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    height: 50px;
+    vertical-align: auto;
+    filter: brightness(350%) contrast(500%);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    margin: 20px;
+    font-size: 18px; /* Размер шрифта */
+    color: rgb(255, 255, 255); /* Цвет текста */
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+   
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    text-align: left;
+    padding: 13px 0;
+    position: fixed;
+    bottom: 2;
+    width: 100%;
+}
+form {
+    display: grid;
+    gap: 20px;
+}
+
+    /* Стили для текстовых полей */
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd; /* Цвет рамки текстового поля */
+        border-radius: 5px;
+        background-color: rgba(224, 217, 217, 0.5); /* Прозрачный фон текстового поля */
+    }
+
+    /* Стили для кнопки */
+    form button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+        /* Стили для кнопки при наведении */
+        form button:hover {
+            background-color: #616161;
+        }
+
+        .search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .search-box {
+            width: 300px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .search-button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #ff6600;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .search-button:hover {
+            background-color: #cc5200;
+        }
+        

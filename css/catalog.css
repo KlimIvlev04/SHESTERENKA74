@@ -1,0 +1,154 @@
+body {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg.jpg') center/cover fixed no-repeat;
+}
+
+header {
+    background-image: url('../img/bg_menu.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #d5952f;
+    padding: 20px 0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.cart-icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.top-menu {
+    text-align: center;
+    
+    padding: 20px;
+}
+
+.top-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.top-menu a:hover {
+    color: #ffcc00; /* Цвет при наведении */
+}
+
+
+.category-menu {
+    background-color: #333;
+    padding: 10px;
+}
+
+.category-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-menu li {
+    display: inline;
+}
+
+.category-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.category-menu a:hover {
+    color: #ffcc00; /* Цвет при наведении */
+}
+
+
+.category-links {
+    text-align: center;
+    margin: 20px;
+}
+
+.category-links h2 {
+    font-size: 24px;
+}
+
+.category-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-links li {
+    margin: 10px 0;
+}
+
+.category-links a {
+    display: inline-block;
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.category-links a:hover {
+    background-color: #333;
+}
+
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-box {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-button:hover {
+    background-color: #cc5200;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg.jpg') center/cover fixed no-repeat;
+}
+
+header {
+    background-image: url('../img/bg_menu.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #d5952f;
+    padding: 20px 0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.cart-icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    
+    max-width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+}
+
+.product:hover {
+
+    transform: scale(1.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.product p {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-box {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-button:hover {
+    background-color: #cc5200;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
