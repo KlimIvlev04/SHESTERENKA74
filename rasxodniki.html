@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="css/catalog2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="img/gif_logo.gif" alt="Анимированный логотип"style="width: 80%; max-width: 50px; height: auto; filter: brightness(350%) contrast(500%);">
+            ШЕСТЕРЁНКА74
+        </h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="cart-icon">
+        <a href="cart.html"><img src="img/cart.png" alt="Иконка корзины" 
+            style="width: 50px; height: 30px;"></a>
+    </div>
+</header>
+
+<div class="search-container">
+    <input type="text" id="search-box" class="search-box" placeholder="Поиск товара...">
+    <button id="search-button" class="search-button">Поиск</button>
+</div>
+
+<section id="catalog">
+
+    
+    
+<!-- Замена охлаждающей системы -->
+<div class="product-container">
+    <div class="product">
+        <img src="img/antifreezeFELIX_10L.jpg" alt="Замена охлаждающей системы"
+        style="width: 40%; max-width: 120px; height: auto;">
+        <h3>Antifreeze FELIX RED G12 (10Л)</h3>
+        <p>Специально разработанная жидкость для охлаждения, которая обеспечивает отличную теплоотдачу и предотвращает образование отложений в системе охлаждения. 
+            Идеально подходит для обслуживания вашего автомобиля.</p>
+        <p class="price">Цена: ₽1'900</p>
+        <button class="add-to-cart" data-id="9" data-name="Antifreeze FELIX RED G12 (10Л)" data-price="1900" 
+        data-img="img/antifreezeFELIX_10L.jpg">Добавить в корзину</button>
+    </div>
+
+    <div class="product">
+        <img src="img/антифриз_люкс_синтек 10л.jpg" alt="Замена охлаждающей системы"
+        style="width: 40%; max-width: 120px; height: auto;">
+        <h3>Антифриз Sintec Lux красный 10л</h3>
+        <p>Специально разработанная жидкость для охлаждения, которая обеспечивает отличную теплоотдачу и предотвращает образование отложений в системе охлаждения.
+             Идеально подходит для обслуживания вашего автомобиля.</p>
+        <p class="price">Цена: ₽1'800</p>
+        <button class="add-to-cart" data-id="10" data-name="Антифриз Sintec Lux красный 10л" data-price="1800" 
+        data-img="img/антифриз_люкс_синтек 10л.jpg">Добавить в корзину</button>
+    </div>
+
+    <div class="product">
+        <img src="img/незамерзайка_gleid_5Л_-30.jpg" alt="Замена охлаждающей системы"
+        style="width: 40%; max-width: 120px; height: auto;">
+        <h3>Жидкость для стеклоомывателя Gleid super effect без запаха, -30°C, 5 л.</h3>
+        <p>Жидкость для стеклоомывателя Gleid Super Effect: без запаха, предназначена для экстремальных температур до -30°C, обеспечивает чистоту стекол и отличное видение в любых условиях.</p>
+        <p class="price">Цена: ₽570</p>
+        <button class="add-to-cart" data-id="11" data-name="Жидкость для стеклоомывателя Gleid super effect без запаха, -30°C, 5 л." 
+        data-price="570" data-img="img/незамерзайка_gleid_5Л_-30.jpg">Добавить в корзину</button>
+    </div>
+
+  
+
+</div>
+
+
+<script src="js/catalog.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>

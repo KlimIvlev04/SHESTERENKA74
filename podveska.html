@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог подвески</title>
+    <link rel="stylesheet" href="css/catalog2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="img/gif_logo.gif" alt="Анимированный логотип"style="width: 80%; max-width: 50px; height: auto; filter: brightness(350%) contrast(500%);">
+            ШЕСТЕРЁНКА74
+        </h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="uslugi.html">Услуги</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="cart-icon">
+        <a href="cart.html"><img src="img/cart.png" alt="Иконка корзины" 
+            style="width: 50px; height: 30px;"></a>
+    </div>
+</header>
+
+<div class="search-container">
+    <input type="text" id="search-box" class="search-box" placeholder="Поиск товара...">
+    <button id="search-button" class="search-button">Поиск</button>
+</div>
+
+<section id="catalog">
+    <div class="product-container">
+        <div class="product">
+            
+            <img src="img/podveska_granta.jpg" alt="Моторное масло" style="width: 55%;
+             max-width: 130px; height: auto;">
+            <h3>Комплект подвески Лада Гранта</h3>
+            <p>Комплект подвески для Лады Гранта: обеспечивает комфортное и устойчивое вождение, адаптированный для российских дорог, снижает вибрации и улучшает управляемость.</p>
+            <p class="price">Цена: ₽17'799</p>
+            <button class="add-to-cart" data-id="12" data-name="Комплект подвески Лада Гранта" data-price="17799" 
+            data-img="img/podveska_granta.jpg">Добавить в корзину</button>
+        
+        </div>
+
+        <div class="product">
+
+            <img src="img/stoykiss20_priora.jpg" alt="Моторное масло" style="width:55%;
+             max-width: 130px; height: auto;">
+            <h3>Стойки SS-20 Приора</h3>
+            <p>Стойки SS-20 для Приоры: оптимальное сочетание жёсткости и комфорта, обеспечивают отличное сцепление с дорогой и стабильность в поворотах.</p>
+            <p class="price">Цена: 8'599</p>
+            <button class="add-to-cart" data-id="13" data-name="Стойки SS-20 Приора" data-price="8599" 
+            data-img="img/stoykiss20_priora.jpg">Добавить в корзину</button>
+
+            
+        </div>
+
+        <div class="product">
+
+            <img src="img/reacttyagi_2101.jpg" alt="Моторное масло" style="width:55%;
+             max-width: 130px; height: auto;">
+            <h3>Комплект реактивных тяг 2101 на 08 с/б с панарой</h3>
+            <p>Комплект реактивных тяг 2101 на 08: улучшенная динамика и управляемость, обеспечивает точное реагирование на управление и повышенную устойчивость на трассе.</p>
+            <p class="price">Цена: 2'830</p>
+            <button class="add-to-cart" data-id="14" data-name="Барабаны тормозные Чугун" data-price="2830" 
+            data-img="img/reacttyagi_2101.jpg">Добавить в корзину</button>
+
+            
+        </div>
+
+        <div class="product">
+
+            <img src="img/рычаги_треугольные.jpg" alt="Моторное масло" style="width:55%;
+             max-width: 130px; height: auto;">
+            <h3>Треугольные рычаги Автопродукт</h3>
+            <p>Треугольные рычаги Автопродукт: надежные и прочные компоненты подвески, обеспечивающие оптимальную устойчивость и комфортность вождения.</p>
+            <p class="price">Цена: 8'900</p>
+            <button class="add-to-cart" data-id="15" data-name="Треугольные рычаги Автопродукт" data-price="8900" 
+            data-img="img/рычаги_треугольные.jpg">Добавить в корзину</button>
+
+            
+        </div>
+
+       
+</div>
+
+<script src="js/catalog.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>

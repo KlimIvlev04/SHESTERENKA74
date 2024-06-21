@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог колодок</title>
+    <link rel="stylesheet" href="css/catalog2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="img/gif_logo.gif" alt="Анимированный логотип"style="width: 80%; max-width: 50px; height: auto; filter: brightness(350%) contrast(500%);">
+            ШЕСТЕРЁНКА74
+        </h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="uslugi.html">Услуги</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="cart-icon">
+        <a href="cart.html"><img src="img/cart.png" alt="Иконка корзины" 
+            style="width: 50px; height: 30px;"></a>
+    </div>
+</header>
+
+<div class="search-container">
+    <input type="text" id="search-box" class="search-box" placeholder="Поиск товара...">
+    <button id="search-button" class="search-button">Поиск</button>
+</div>
+
+<section id="catalog">
+    
+
+    <div class="product-container">
+        <div class="product">
+        <img src="img/kolodki_BMWX6.jpg" alt="Тормозные колодки" style="width: 55%; 
+        max-width: 130px; height: auto;">
+        <h3>Тормозные колодки для BMW X6 M sport </h3>
+        <p>Эти тормозные колодки обеспечивают отличное торможение и надежность для 
+            вашего BMW. Специально разработанные для высоких производительных требований,
+             они обеспечивают отличную долговечность и стойкость к высоким температурам</p>
+        <p class="price">Цена: ₽29'000</p>
+        <button class="add-to-cart" data-id="5" data-name="Тормозные колодки для BMW X6 M sport" data-price="29000" data-img="../img/kolodki_BMWX6.jpg">Добавить в корзину</button>
+    
+</div>
+
+    <div class="product">
+        <img src="img/kolodki_camryV70.jpg" alt="Тормозные колодки" style="width: 55%; 
+        max-width: 180px; height: auto;">
+        <h3>Тормозные колодки для Toyota Camry v70 2017-2023</h3>
+        <p>Превосходные тормозные колодки, специально созданные для автомобилей Toyota. 
+            Обеспечивают надежное торможение и стойкость к износу. Идеальны для 
+            повседневного использования и долгосрочной надежности</p>
+        <p class="price">Цена: ₽2'800</p>
+        <button class="add-to-cart" data-id="6" data-name="Тормозные колодки для Toyota Camry v70 2017-2023" data-price="2800"
+         data-img="../img/kolodki_camryV70.jpg">Добавить в корзину</button>
+    </div>
+
+    <div class="product">
+        <img src="img/disktorm_2112sport.jpg" alt="Тормозные колодки" style="width: 55%; 
+        max-width: 180px; height: auto;">
+        <h3>Диски тормозные 2112 Lada Sport</h3>
+        <p>Тормозные диски Lada 2112 Sport обладают спортивным дизайном, 
+            высококачественным чугуном и эффективной теплорассеиваемостью для улучшенной 
+            производительности в условиях автоспорта</p>
+        <p class="price">Цена: ₽3'400</p>
+        <button class="add-to-cart" data-id="7" data-name="Диски тормозные 2112 Lada Sport" data-price="3400" 
+        data-img="img/disktorm_2112sport.jpg">Добавить в корзину</button>
+    </div>
+
+    <div class="product">
+        <img src="img/baraban_chugun_black.jpg" alt="Тормозные колодки" style="width: 55%; 
+        max-width: 180px; height: auto;">
+        <h3>Барабаны тормозные Чугун</h3>
+        <p>Чугунные барабанные тормоза: надежные и долговечные тормоза, устойчивые к перегреву и износу</p>
+        <p class="price">Цена: ₽2'390</p>
+        <button class="add-to-cart" data-id="8" data-name="Барабаны тормозные Чугун" data-price="2390" 
+        data-img="img/baraban_chugun_black.jpg">Добавить в корзину</button>
+    </div>
+
+   
+   
+</div>
+
+<script src="js/catalog.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>

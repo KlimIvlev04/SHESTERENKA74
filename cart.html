@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="img/gif_logo.gif" alt="Анимированный логотип" style="width: 80%; max-width: 50px; height: auto; filter: brightness(350%) contrast(500%);">
+            ШЕСТЕРЁНКА74
+        </h1>
+        
+        <div class="cart-icon">
+            <a href="html/cart.html"><img src="img/cart.png" alt="Иконка корзины" 
+                style="width: 50px; height: 30px;"></a>
+        </div>
+    </header>
+
+    <main>
+        <h2>Корзина</h2>
+        
+        <div class="cart-container" id="cart-items">
+            <!-- Товары будут добавляться сюда через JavaScript -->
+        </div>
+
+        <div class="cart-summary">
+
+            
+            <div class="total-box">
+                <h3><span>Итого:</span> <span id="total-price">₽0</span></h3>
+            </div>
+            
+
+            <a href="catalog.html" class="continue-shopping-button">Продолжить покупки</a>
+        </div>
+    </main>
+
+    <script src="js/cart.js"></script>
+    
+</body>
+</html>
+

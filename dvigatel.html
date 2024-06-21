@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="css/catalog2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="img/gif_logo.gif" alt="Анимированный логотип"style="width: 80%; max-width: 50px; height: auto; filter: brightness(350%) contrast(500%);">
+            ШЕСТЕРЁНКА74
+        </h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="cart-icon">
+        <a href="cart.html"><img src="img/cart.png" alt="Иконка корзины" 
+            style="width: 50px; height: 30px;"></a>
+    </div>
+</header>
+
+<div class="search-container">
+    <input type="text" id="search-box" class="search-box" placeholder="Поиск товара...">
+    <button id="search-button" class="search-button">Поиск</button>
+</div>
+
+<section id="catalog">
+
+    
+  
+    <div class="product-container">
+        
+        <div class="product">
+        <img src="img/cap_priora.jpg" alt="Капитальный ремонт двигателя" 
+        style="width: 55%; max-width: 145px; height: auto;">
+        <h3>Комплект капиталки Priora</h3>
+        <p>Наш сервис предлагает качественные услуги по капитальному ремонту двигателя для автомобилей LADA Priora. Этот вид ремонта включает в себя полную разборку, диагностику, 
+            замену изношенных деталей и восстановление работоспособности двигательного блока.</p>
+        <p class="price">Цена: ₽16'800</p>
+        <button class="add-to-cart" data-id="1" data-name="Комплект капиталки Priora" data-price="16800" 
+        data-img="img/cap_priora.jpg">Добавить в корзину</button>
+    </div>
+
+
+    <div class="product">
+        <img src="img/ngk.jpg" alt="Свечи зажигания" style="width: 55%; 
+        max-width: 145px; height: auto;">
+        <h3>Свечи зажигания NGK V-Line ВАЗ 2101-07 4шт</h3>
+        <p>NGK предлагает выдающиеся свечи зажигания для вашего автомобиля. Обеспечивают стабильную и эффективную работу двигателя. Подходят для широкого спектра марок и моделей.</p>
+        <p class="price">Цена: ₽1200</p>
+        <button class="add-to-cart" data-id="2" data-name="Свечи зажигания NGK V-Line ВАЗ 2101-07 4шт" data-price="1200" 
+        data-img="img/ngk.jpg">Добавить в корзину</button>
+    
+</div>
+
+<div class="product">
+    <img src="img/bosh_flr8ldcu.jpg" alt="Свечи зажигания" style="width: 55%; 
+    max-width: 145px; height: auto;">
+    <h3>Свечи зажигания Bosch FLR8LDCU 4шт</h3>
+    <p>Свечи зажигания Bosch - надежный выбор для тех, кто ценит качество и производительность. Гарантируют стабильную зажигаемость и эффективное сгорание топлива.</p>
+    <p class="price">Цена: ₽1500</p>
+    <button class="add-to-cart" data-id="3" data-name="Свечи зажигания Bosch FLR8LDCU 4шт" data-price="1500" 
+    data-img="img/bosh_flr8ldcu.jpg">Добавить в корзину</button>
+   
+</div>
+
+<div class="product">
+    <img src="img/grm_gates_priora.jpg" alt="Свечи зажигания" style="width: 55%; 
+    max-width: 145px; height: auto;">
+    <h3>Комплект замены грм Gates Priora</h3>
+    <p>Такой элемент устройства двигателя, как привод газораспределительного 
+        механизма,
+         несёт на себе немаловажную роль в работоспособности автомобиля, 
+         и в случае неисправности, а точнее обрыва, может повлечь за собой 
+         дорогостоящий ремонт силового агрегата. Поэтому важно устанавливать надёжные 
+         комплектующие с высоким ресурсом работы.</p>
+    <p class="price">Цена: ₽6'889</p>
+    <button class="add-to-cart" data-id="4" data-name="Комплект замены грм Gates Priora" data-price="6889" 
+    data-img="img/grm_gates_priora.jpg">Добавить в корзину</button>
+   
+</div>
+
+
+
+</div>
+<script src="js/catalog.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/search.js"></script>
+
+</body>
+</html>
